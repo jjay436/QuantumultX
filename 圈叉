@@ -1,0 +1,111 @@
+{
+  "id": "id77.app.sub",
+  "name": "id77 脚本订阅",
+  "author": "@id77",
+  "icon": "https://avatars0.githubusercontent.com/u/9592236",
+  "repo": "https://github.com/id77/QuantumultX/tree/master",
+  "apps": [
+    {
+      "id": "jdWulLiu",
+      "name": "京东物流",
+      "keys": ["id77_jdWulLiu_pageMax"],
+      "descs_html": [
+        "<p>查询条目只能设置「整十」的数字。</p>",
+        "<p>10条/页，要查多少页就填写相应条目</p>"
+      ],
+      "settings": [
+        {
+          "id": "id77_jdWulLiu_pageMax",
+          "name": "查询条目",
+          "val": "",
+          "type": "number",
+          "placeholder": "10",
+          "desc": "整十数字。比如：10，20，30..."
+        }
+      ],
+      "script": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js",
+      "author": "@id77",
+      "repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js",
+      "icons": [
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png",
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png"
+      ]
+    },
+    {
+      "id": "yiLi",
+      "name": "伊利乳品",
+      "keys": ["id77_yiLi_cookies"],
+      "settings": [
+        {
+          "id": "id77_yiLi_cookies",
+          "name": "session",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 2,
+          "desc": "多账号，不支持单独管理，可以手动更改，不懂不建议修改"
+        }
+      ],
+      "script": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js",
+      "author": "@id77",
+      "repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js",
+      "icons": [
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/yiLi.png",
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/yiLi.png"
+      ],
+      "descs_html": [
+        "1、支持多账号，添加好配置，注册小程序后点个人中心，<a target=\"_blank\" href=\"https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js\">前往文件获取</a>",
+        "2、<img style=\"width: 120px\" src=\"https://raw.githubusercontent.com/id77/QuantumultX/master/img/yiLi_qr.png\" />",
+        "长按保存小程序码，用微信相机识别进入注册。",
+        "麻烦点一下助力，开发不易 ❤️",
+        "目前支持自动签到，每日阅读、分享任务",
+        "<br />",
+        "ps: 可以用几个微信弄多个账号，但需要手机号"
+      ]
+    },
+    {
+      "id": "id77",
+      "name": "自用JDCookie管理",
+      "keys": ["id77_api"],
+      "author": "@id77",
+      "icons": [
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/id77.png",
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/id77.png"
+      ],
+      "settings": [
+        {
+          "id": "id77_api",
+          "name": "api",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 2
+        }
+      ]
+    },
+    {
+      "id": "geekhub",
+      "name": "Geekhub",
+      "keys": ["id77_geekhub"],
+      "script": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/geekhub.js",
+      "author": "@id77",
+      "repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/geekhub.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/geekhub.png",
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/geekhub.png"
+      ]
+    },
+    {
+      "id": "_163GameVip",
+      "name": "网易游戏会员",
+      "keys": ["id77_163GameVip"],
+      "script": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.js",
+      "author": "@id77",
+      "repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/163GameVip.png",
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/163GameVip.png"
+      ]
+    }
+  ]
+}
